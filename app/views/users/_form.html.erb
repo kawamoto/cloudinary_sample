@@ -32,3 +32,13 @@
     <%= f.submit %>
   </div>
 <% end %>
+
+<script>
+  $(function() {
+    $('#user_img').uploadify({
+        'swf' : '/uploadify.swf',
+        'uploader' : '/uploadify.swf'
+        // Put your options here
+    });
+  });
+</script>
