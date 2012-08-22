@@ -24,7 +24,7 @@ class PictureUploader < CarrierWave::Uploader::Base
   end
 
   def public_id
-    return model.short_name
+    return model.name
   end  
 
   # Choose what kind of storage to use for this uploader:
