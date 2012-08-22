@@ -3,7 +3,10 @@
 <table>
   <tr>
     <th>Name</th>
+    <th>ImgString</th>
+    <th>ImgUrl</th>
     <th>Img</th>
+    <th>ImgThumb</th>
     <th>Facebook</th>
     <th>Twitter</th>
     <th></th>
@@ -15,6 +18,9 @@
   <tr>
     <td><%= user.name %></td>
     <td><%= user.img %></td>
+    <td><%= user.img_url %></td>
+    <td><%= image_tag(user.img_url) if user.img_url %> </td>
+    <td><%= image_tag(user.img_url(:thumbnail)) if user.img_url %> </td>
     <td><%= user.facebook_id %></td>
     <td><%= user.twitter_id %></td>
     <td><%= link_to 'Show', user %></td>
