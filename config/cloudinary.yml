@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: kawamoto
+  api_key: '667186348963884'
+  api_secret: DvLzOrOnEITjWW4rB1DPHWtz3_0
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: kawamoto
+  api_key: '667186348963884'
+  api_secret: DvLzOrOnEITjWW4rB1DPHWtz3_0
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: kawamoto
+  api_key: '667186348963884'
+  api_secret: DvLzOrOnEITjWW4rB1DPHWtz3_0
+  enhance_image_tag: true
+  static_image_support: false
